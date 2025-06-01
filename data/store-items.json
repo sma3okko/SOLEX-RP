@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Coins",
+            "price": "10000 Coins - 50 DH",
+            "icon": "images/icons/coins.png",
+            "description": "Obtenez 1000 coins pour votre personnage",
+            "type": "coins"
+        },
+        {
+            "id": 2,
+            "name": "Véhicules Moddés",
+            "price": "100 DH",
+            "icon": "images/icons/car.png",
+            "description": "Véhicules exclusifs avec mods personnalisés",
+            "type": "vehicle"
+        }
+    ]
+}

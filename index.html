@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLEX - FiveM Roleplay</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SOLEX</div>
+            <ul class="nav-links">
+                <li><a href="#whitelist">Whitelist</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#album">Album</a></li>
+                <li><a href="#boutique">Boutique</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="images/slider1.jpg" alt="Image 1">
+                    <div class="slide-content">
+                        <h1>SOLEX FiveM Roleplay</h1>
+                        <p>Bienvenue dans notre communauté Roleplay</p>
+                        <a href="#whitelist" class="cta-button">Rejoindre le serveur</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slider2.jpg" alt="Image 2">
+                    <div class="slide-content">
+                        <h1>Expérience Unique</h1>
+                        <p>Une communauté active et accueillante</p>
+                        <a href="#discord" class="cta-button">Rejoindre Discord</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/slider3.jpg" alt="Image 3">
+                    <div class="slide-content">
+                        <h1>Boutique Premium</h1>
+                        <p>Obtenez vos véhicules moddés</p>
+                        <a href="#boutique" class="cta-button">Voir la boutique</a>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="whitelist" class="form-section">
+            <div class="container">
+                <h2>Formulaire de Whitelist</h2>
+                <form id="whitelist-form">
+                    <div class="form-group">
+                        <label for="player-name">Nom de joueur</label>
+                        <input type="text" id="player-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Histoire de ton personnage?</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="discord" class="discord-section">
+            <div class="container">
+                <h2>Rejoignez notre Discord</h2>
+                <div class="discord-card">
+                    <img src="https://media.discordapp.net/attachments/1135880572183531620/1335649549930332280/logo-solex.png?ex=683bd853&is=683a86d3&hm=01e426d6391a9fd646104a0cb4056e422f493f1a9c18b5f23ad6973900d849c3&=&format=webp&quality=lossless&width=955&height=960" alt="Discord Logo" class="discord-logo">
+                    <p>Rejoignez notre communauté active et participez aux discussions</p>
+                    <a href="https://discord.gg/n42A34fhqS" target="_blank" class="discord-btn">
+                        <i class="fab fa-discord"></i> Rejoindre le Discord
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="album" class="album-section">
+            <div class="container">
+                <h2>Album du Serveur</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/1.jpg" alt="Moment 1">
+                        <div class="gallery-overlay">
+                            <h3>Moment 1</h3>
+                            <p>Description du moment</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/2.jpg" alt="Moment 2">
+                        <div class="gallery-overlay">
+                            <h3>Moment 2</h3>
+                            <p>Description du moment</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/3.jpg" alt="Moment 3">
+                        <div class="gallery-overlay">
+                            <h3>Moment 3</h3>
+                            <p>Description du moment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boutique" class="store-section">
+            <div class="container">
+                <h2>Boutique</h2>
+                <div class="store-items">
+                    <div class="store-item">
+                        <div class="store-item-content">
+                            <div class="store-item-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <h3>Coins</h3>
+                            <p>1000 Coins - 5€</p>
+                            <button class="buy-button">Acheter</button>
+                        </div>
+                    </div>
+                    <div class="store-item">
+                        <div class="store-item-content">
+                            <div class="store-item-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <h3>Véhicules Moddés</h3>
+                            <p>2000 Coins</p>
+                            <button class="buy-button">Acheter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <div class="container">
+                <h2>Connexion au Serveur</h2>
+                <div class="connect-card">
+                    <p>IP du serveur: <span id="server-ip">votre.ip.serveur:30120</span></p>
+                    <button class="connect-button">
+                        <i class="fas fa-copy"></i> Copier l'IP
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SOLEX</h3>
+                    <p>Une communauté FiveM Roleplay</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#whitelist">Whitelist</a></li>
+                        <li><a href="#discord">Discord</a></li>
+                        <li><a href="#album">Album</a></li>
+                        <li><a href="#boutique">Boutique</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Discord: SOLEX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SOLEX FiveM Roleplay. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
